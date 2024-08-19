@@ -1,0 +1,38 @@
+.formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  --input-search-width: 300px;
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+}
+
+.searchForm > input {
+  box-sizing: border-box;
+  width: var(--input-search-width);
+  height: 3rem;
+  padding: 0 4em 0 1em;
+  font-size: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.searchForm > button {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin: 0 0.5em;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}

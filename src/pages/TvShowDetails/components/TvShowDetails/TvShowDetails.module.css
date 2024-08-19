@@ -1,0 +1,57 @@
+.detailContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2em;
+}
+
+.poster {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 20px;
+  width: clamp(160px, 100%, 600px);
+}
+
+.detailHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailHeader h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.detailSubHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.detailSubHeader h3 {
+  margin: 0;
+}
+
+.detailSubHeader a {
+  color: yellow;
+}
+
+.detailGenres {
+  display: flex;
+  gap: 1em;
+}
+
+.detailGenres h4 {
+  color: grey;
+}
+
+@media (max-width: 900px) {
+  .detailContainer {
+    grid-template-columns: auto;
+  }
+
+  .poster {
+    display: none;
+  }
+}

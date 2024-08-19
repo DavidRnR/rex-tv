@@ -1,0 +1,21 @@
+.linearProgressContainer {
+  background: var(--secondary);
+  width: 100%;
+  overflow: hidden;
+}
+
+.linearProgress {
+  height: 0.6rem;
+  background: linear-gradient(to right, var(--secondary), rgb(68, 100, 189));
+  border-radius: 6px;
+  animation: progress 2s linear infinite;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

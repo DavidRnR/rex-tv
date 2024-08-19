@@ -1,0 +1,8 @@
+.detailRating {
+  display: flex;
+  align-items: center;
+}
+
+.starRate {
+  color: #ffb400;
+}

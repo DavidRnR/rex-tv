@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container img {
+  width: clamp(200px, 100%, 500px);
+}
